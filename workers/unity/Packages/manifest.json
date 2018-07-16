@@ -1,10 +1,10 @@
 {
   "dependencies": {
-    "com.improbable.gdk.core": "file:com.improbable.gdk.core",
-    "com.improbable.gdk.legacy": "file:com.improbable.gdk.legacy",
-    "com.improbable.gdk.playerlifecycle": "file:com.improbable.gdk.playerlifecycle",
-    "com.improbable.gdk.testutils": "file:com.improbable.gdk.testutils",
-    "com.improbable.gdk.transformsynchronization": "file:com.improbable.gdk.transformsynchronization",
+    "com.improbable.gdk.core": "file:../../../../UnityGdk/workers/unity/Packages/com.improbable.gdk.core",
+    "com.improbable.gdk.legacy": "file:../../../../UnityGdk/workers/unity/Packages/com.improbable.gdk.legacy",
+    "com.improbable.gdk.playerlifecycle": "file:../../../../UnityGdk/workers/unity/Packages/com.improbable.gdk.playerlifecycle",
+    "com.improbable.gdk.testutils": "file:../../../../UnityGdk/workers/unity/Packages/com.improbable.gdk.testutils",
+    "com.improbable.gdk.transformsynchronization": "file:../../../../UnityGdk/workers/unity/Packages/com.improbable.gdk.transformsynchronization",
     "com.unity.burst": "0.2.4-preview.18",
     "com.unity.entities": "0.0.12-preview.8",
     "com.unity.incrementalcompiler": "0.0.42-preview.14",

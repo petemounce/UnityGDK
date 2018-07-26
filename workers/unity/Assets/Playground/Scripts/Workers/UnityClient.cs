@@ -48,11 +48,11 @@ namespace Playground
             World.GetOrCreateManager<FollowCameraSystem>();
 
             // Client player UI systems
-            World.GetOrCreateManager<InitUISystem>();
-            World.GetOrCreateManager<UpdateUISystem>();
+            // World.GetOrCreateManager<InitUISystem>();
+            // World.GetOrCreateManager<UpdateUISystem>();
 
             // Client player commands system
-            World.GetOrCreateManager<PlayerCommandsSystem>();
+            // World.GetOrCreateManager<PlayerCommandsSystem>();
 
             // Metric sending system
             World.GetOrCreateManager<MetricSendSystem>();

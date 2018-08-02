@@ -50,8 +50,9 @@ namespace Playground
             World.GetOrCreateManager<TriggerColorChangeSystem>();
 
             // Server test command systems
-            World.GetOrCreateManager<ProcessLaunchCommandSystem>();
-            World.GetOrCreateManager<ProcessRechargeSystem>();
+            World.GetOrCreateManager<ProcessShootingAttemptsSystem>();
+            // World.GetOrCreateManager<ProcessLaunchCommandSystem>();
+            // World.GetOrCreateManager<ProcessRechargeSystem>();
 
             // Metric sending system
             World.GetOrCreateManager<MetricSendSystem>();

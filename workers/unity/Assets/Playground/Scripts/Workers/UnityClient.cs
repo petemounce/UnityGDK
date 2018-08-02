@@ -53,7 +53,9 @@ namespace Playground
             World.GetOrCreateManager<UpdateUISystem>();
 
             // Client player commands system
-            World.GetOrCreateManager<PlayerCommandsSystem>();
+            // World.GetOrCreateManager<PlayerCommandsSystem>();
+            World.GetOrCreateManager<AttemptShootingSystem>();
+            World.GetOrCreateManager<ProcessShootingEventsSystem>();
 
             // Metric sending system
             World.GetOrCreateManager<MetricSendSystem>();

@@ -1,0 +1,18 @@
+package playground;
+
+type ShotAttemptDetails {
+	option<EntityId> target = 1;
+}
+
+type ReloadAttemptDetails {}
+
+type ValidationResponse {
+	bool success = 1;
+}
+
+component ServerShooting {
+	id = 10001;
+	int32 ammo = 1;
+	command ValidationResponse attempt_shot(ShotAttemptDetails);
+	command ValidationResponse attempt_reload(ReloadAttemptDetails);
+}

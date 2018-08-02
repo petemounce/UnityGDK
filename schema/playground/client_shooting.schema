@@ -1,0 +1,8 @@
+package playground;
+
+type ShootDetails{}
+
+component ClientShooting {
+	id = 10000;
+	event ShootDetails shoot;
+}

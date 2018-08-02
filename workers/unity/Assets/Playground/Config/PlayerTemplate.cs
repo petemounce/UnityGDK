@@ -34,6 +34,9 @@ namespace Playground
             var archetype = new Playground.ArchetypeComponent.Data(ArchetypeConfig.CharacterArchetype);
             var launcher = new Playground.Launcher.Data(100, 0);
             var score = new Playground.Score.Data(0);
+            var shooting = new Playground.ClientShooting.Data();
+            var ammo = new Playground.ServerShooting.Data(10);
+            var shoottable = new Playground.CanBeShot.Data();
 
             return EntityBuilder.Begin()
                 .AddPositionComponent(coordinates, GameLogicSet)
@@ -48,6 +51,9 @@ namespace Playground
                 .AddComponent(archetype, GameLogicSet)
                 .AddComponent(launcher, GameLogicSet)
                 .AddComponent(score, GameLogicSet)
+                .AddComponent(shooting, clientSet)
+                .AddComponent(ammo, GameLogicSet)
+                .AddComponent(shoottable, GameLogicSet)
                 .Build();
         }
     }

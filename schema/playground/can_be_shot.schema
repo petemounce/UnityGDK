@@ -1,0 +1,15 @@
+package playground;
+
+type HitDetails {
+	int32 damage = 1;
+}
+
+type HitResponse {
+	bool success = 1;
+}
+
+component CanBeShot {
+	id = 10002;
+	event HitDetails took_damage;
+	command HitResponse hit(HitDetails);
+}
